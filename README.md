@@ -1,6 +1,7 @@
 # Programming in C Lab Assignments
 
 ### Checklist
+
 [x] 1.1
 [x] 1.2
 [x] 1.3
