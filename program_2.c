@@ -20,4 +20,5 @@ int main(){
                 break;
         default: printf("Invalid day number\n");
     }
+return 0;
 }
