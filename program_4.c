@@ -1,16 +1,17 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main() {
-// create an two random 3x3 matrices
-    int a[3][3], b[3][3], c[3][3] = {{0, 0, 0},
-                                     {0, 0, 0},
-                                     {0, 0, 0}};
+// create an the three matrices
+    int a[3][3], b[3][3], c[3][3];
 
-// randomize a and b
+// take input from user for a and b
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
-            a[i][j] = rand();
-            b[i][j] = rand();
+            printf("Enter Element [%d][%d] of Matrix A: ", i, j);
+            scanf("%d", &a[i][j]);
+
+            printf("Enter Element [%d][%d] of Matrix B: ", i, j);
+            scanf("%d", &b[i][j]);
         }
     }
 
