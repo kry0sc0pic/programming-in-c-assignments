@@ -8,13 +8,12 @@ int main()
 
 	pn=&num;
 	pr=&rev;
-	do
-	{
-		rem=(*pn)%10;
+
+    while (*pn>0){
+        rem=(*pn)%10;
 		*pr=(*pr * 10)+rem;
 		*pn=(*pn)/10;
-	}while(*pn>0);	
+    }	
 	printf(" Reverse of Number is : %d",*pr);
-	return 0;
-	
+	return 0;	
 }
